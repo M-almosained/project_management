@@ -57,7 +57,7 @@
     "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "ToDo\nOn progress\nClosed"
+   "options": "To Do\nOn Progress\nClosed"
   },
   {
    "fieldname": "start_date",
