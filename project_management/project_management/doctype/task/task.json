@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-17 17:03:39.500184",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details",
+  "start_time",
+  "expected_end_date",
+  "hour_count",
+  "column_break_xdto",
+  "sprint",
+  "user_story",
+  "status",
+  "start_date",
+  "end_date",
+  "employee_assignment_section",
+  "assignment"
+ ],
+ "fields": [
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "details"
+  },
+  {
+   "fieldname": "start_time",
+   "fieldtype": "Time",
+   "label": "Start Time"
+  },
+  {
+   "fieldname": "expected_end_date",
+   "fieldtype": "Data",
+   "label": "Expected End Date"
+  },
+  {
+   "fieldname": "hour_count",
+   "fieldtype": "Data",
+   "label": "hour count"
+  },
+  {
+   "fieldname": "column_break_xdto",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sprint",
+   "fieldtype": "Data",
+   "label": "sprint"
+  },
+  {
+   "fieldname": "user_story",
+   "fieldtype": "Data",
+   "label": "User Story"
+  },
+  {
+    "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "ToDo\nOn progress\nClosed"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "employee_assignment_section",
+   "fieldtype": "Section Break",
+   "label": "employee assignment"
+  },
+  {
+   "fieldname": "assignment",
+   "fieldtype": "Table",
+   "label": "assignment",
+   "options": "assignment_employee"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-17 17:25:41.364212",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Task",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
